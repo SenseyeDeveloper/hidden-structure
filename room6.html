@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hidden structure/room6</title>
+	<link rel="stylesheet" type="text/css" href="Office_style.css">
+</head>
+<body>
+	
+	<script type="text/javascript" src="JS/OfficeScript.js"></script>
+
+
+       <div id="game">
+       <div id="player" class="person" style="left: 50px; bottom: 500px;"></div>
+       <div id="monster" class="person" style="left: 50px; bottom: 50px;"></div>
+       <div id="panel" class="world">life:1</div>
+       <div id="navigator" class="world">
+           <button id="up" onclick="up()">up</button><br>
+           <button id="left" onclick="lefty()">left</button>
+           <button id="use" onclick="use()">use</button>
+           <button id="right" onclick="right()">right</button><br>
+           <button id="down" onclick="down()">down</button>
+       </div>
+       <div id="key_card_white" class="person" style="left: 100px; bottom: 350px;"></div>
+       <div id="key_card_black" class="person" style="left: 300px; bottom: 350px;"></div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wallPlant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallPlant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="unlocked_door" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="locked_door_black" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallCooler" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallCooler" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="unlocked_door" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wall" class="world" onclick="this.id ='unlocked_door'"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallCooler" class="world"></div>
+       <div id="wallSofa" class="world"></div>
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallSofa" class="world"></div>
+       <div id="wallSofa" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wallSofa" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt_plant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="locked_door_white" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallCooler" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wallPlant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wallPlant" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="empty_asfalt" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="row">
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       <div id="wall" class="world"></div>
+       </div>
+       <div id="message"></div>
+
+
+       </div>
+
+</body>
+</html>
